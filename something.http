@@ -1,0 +1,17 @@
+//GET --> All Students
+http://localhost:5160/students
+
+### 
+//GET --> spesific Student by ID
+http://localhost:5160/students/1
+
+###
+//POST --> STUDENTS
+http://localhost:5160/students
+Content-Type: : application/json
+
+{
+    "name": "Some",
+    "surName": "Somethingovic",
+    "age": 26
+}
